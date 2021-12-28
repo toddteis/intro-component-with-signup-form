@@ -21,6 +21,27 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+main {
+    display: grid;
+    grid-template-columns: auto 327px auto;
+    grid-template-rows: 226 554;
+    grid-template-areas: 
+    'sdl int sdr'
+    'sdl bod sdr';
+    height: 912px;
+    align-content: center;
+}
+
+.intro {
+    grid-area: int;
+    height: 262px
+}
+
+.cta {
+    grid-area: bod;
+    height: 554;
+}
+
 
 /* FOOTER */
 
