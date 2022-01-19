@@ -30,8 +30,7 @@ main {
     grid-template-areas: 
     'sdl int sdr'
     'sdl bod sdr';
-    height: 912px;
-    align-content: center;
+    margin-top: 88px;
 }
 
 h1 {
@@ -44,7 +43,7 @@ h1 {
 
 .intro {
     grid-area: int;
-    height: 262px;
+    height: 226px;
     text-align: center;
     margin-bottom: 64px;
 }
@@ -59,6 +58,26 @@ h1 {
 .cta {
     grid-area: bod;
     height: 554;
+}
+
+.cta h2 {
+    height: 88px;
+    margin-bottom: 24px;
+    background-color: var(--blue);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding: 18px 67px;
+    line-height: 26px;
+}
+
+.cta h2 span {
+    font-weight: 700;
+}
+
+.cta form {
+    height: 442px;
 }
 
 
