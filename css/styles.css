@@ -145,3 +145,26 @@ h1 {
     font-size: 11px;
     text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: auto 339px 339px auto;
+        grid-template-rows: 554;
+        grid-template-areas: 
+        'sdl int bod sdr';
+        column-gap: 30px;
+        margin-top: 121px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        height: 554px;
+        margin-top: 10px;
+    }
+}
