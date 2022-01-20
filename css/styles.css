@@ -41,6 +41,8 @@ h1 {
     height: 80px;
 }
 
+/* INTRO SECTION */
+
 .intro {
     grid-area: int;
     height: 226px;
@@ -54,6 +56,7 @@ h1 {
     margin: 5px;
 }
 
+/* CTA SECTION */
 
 .cta {
     grid-area: bod;
@@ -78,8 +81,54 @@ h1 {
 
 .cta form {
     height: 442px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
+.cta form input {
+    
+    width: 279px;
+    height: 56px;
+    padding: 15px 19px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid var(--grayish-blue);
+}
+
+.cta form p {
+    color: var(--grayish-blue);
+    font-size: 11px;
+    margin: 0 39px 24px 39px;
+    text-align: center;
+    line-height: 21px;
+}
+
+.cta form p span {
+    color: var(--red);
+    font-weight: 700;
+}
+
+.cta .btn-submit {
+    background-color: var(--green);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.input-top {
+    margin: 24px 24px 8px 24px;
+}
+
+.input-mid {
+    margin: 8px 24px 8px 24px;
+}
+
+.input-bottom {
+    margin: 8px 24px 8px 24px;
+}
 
 /* FOOTER */
 
