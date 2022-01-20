@@ -73,6 +73,7 @@ h1 {
     text-align: center;
     padding: 18px 67px;
     line-height: 26px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688)
 }
 
 .cta h2 span {
@@ -85,6 +86,7 @@ h1 {
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
 }
 
 .cta form input {
