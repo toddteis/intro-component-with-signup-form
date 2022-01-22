@@ -167,6 +167,11 @@ h1 {
         height: 554px;
         margin-top: 10px;
     }
+
+    .cta form input {
+        width: 86%;
+    }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -187,5 +192,9 @@ h1 {
         text-align: left;
         height: 554px;
         margin-top: 10px;
+    }
+
+    .cta form input {
+        width: 91.5%;
     }
 }
