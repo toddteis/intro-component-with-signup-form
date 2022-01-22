@@ -61,7 +61,7 @@ h1 {
 
 .cta {
     grid-area: bod;
-    height: 554;
+    height: 554px;
 }
 
 .cta h2 {
@@ -179,7 +179,7 @@ h1 {
     main {
         display: grid;
         grid-template-columns: auto minmax(339px, 525px) minmax(339px, 540px) auto;
-        grid-template-rows: 554;
+        grid-template-rows: 558;
         grid-template-areas: 
         'sdl int bod sdr';
         column-gap: 45px 45px 45px;
@@ -203,7 +203,32 @@ h1 {
         margin-top: 10px;
     }
 
-    .cta form input {
-        width: 91.5%;
+    .cta {
+        height: 558px;
+    }
+
+    .cta h2 {
+        height: 60px;
+     }
+
+     .cta form {
+        height: 474px;
+    }
+
+    .cta form p {
+        margin: 0 86.5px 40px 86.5px;
+        line-height: 26px;
+    }
+
+    .input-top {
+        margin: 40px 40px 10px 40px;
+    }
+    
+    .input-mid {
+        margin: 10px 40px 10px 40px;
+    }
+    
+    .input-bottom {
+        margin: 10px 40px 8px 40px;
     }
 }
