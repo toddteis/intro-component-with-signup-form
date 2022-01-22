@@ -168,3 +168,24 @@ h1 {
         margin-top: 10px;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: auto minmax(339px, 525px) minmax(339px, 540px) auto;
+        grid-template-rows: 554;
+        grid-template-areas: 
+        'sdl int bod sdr';
+        column-gap: 45px 45px 45px;
+        margin-top: 121px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        height: 554px;
+        margin-top: 10px;
+    }
+}
